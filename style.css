@@ -1,0 +1,36 @@
+body
+{
+    background-image: url('bg.jpg');
+}
+
+#container
+{
+    border: 1px solid white;
+    height: max-content;
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(25, 31px);
+    grid-template-rows: repeat(25, 31px);
+    background-color: white;
+}
+
+.grid
+{
+    border: 0.1px solid blue;
+}
+
+.fill-in
+{
+    background-color: blue;
+}
+
+h1
+{
+    color: blue;
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    margin-top: -750px;
+    font-family: 'Courier New', Courier, monospace;
+}
